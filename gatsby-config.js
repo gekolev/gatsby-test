@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `gekolev`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `George Kolev`,
+      summary: `who lives to make cool shit.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
@@ -11,7 +11,8 @@ module.exports = {
       twitter: `kylemathews`,
     },
   },
-  plugins: [
+  plugins: [ 
+    `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -120,7 +121,7 @@ module.exports = {
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
-        display: `minimal-ui`,
+        display: `minimal-ui`,  
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
