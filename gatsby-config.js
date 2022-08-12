@@ -67,7 +67,6 @@ module.exports = {
               siteMetadata {
                 title
                 description
-                thumbnail
                 siteUrl
                 site_url: siteUrl
               }

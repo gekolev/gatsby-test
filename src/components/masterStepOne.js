@@ -5,8 +5,8 @@ export const MatterStepOne = () => {
   const boxRef = useRef(null);
   const canvasRef = useRef(null);
 
-  const fullWidth = window.innerWidth;
-  const fullHeight = window.innerHeight;
+  const fullWidth = 500;
+  const fullHeight = 500;
 
   useEffect(() => {
     let Engine = Matter.Engine;
