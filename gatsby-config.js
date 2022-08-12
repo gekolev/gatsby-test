@@ -1,4 +1,7 @@
 module.exports = {
+  // flags: {
+  //   PARALLEL_QUERY_RUNNING: false
+  // },
   siteMetadata: {
     title: `gekolev`,
     author: {
