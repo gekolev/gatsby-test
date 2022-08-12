@@ -4,6 +4,8 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import MatterStepOne from "../components/masterStepOne"
+import { StaticImage } from "gatsby-plugin-image"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -25,11 +27,14 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
+      <Seo title="All projects" />
       <Bio />
+      <MatterStepOne />
+
       <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
+        {posts.map(post => {  
           const title = post.frontmatter.title || post.fields.slug
+          // const thumb = post.frontmatter.thumbnail
 
           return (
             <li key={post.fields.slug}>
@@ -46,6 +51,12 @@ const BlogIndex = ({ data, location }) => {
                   </h2>
                   <small>{post.frontmatter.date}</small>
                 </header>
+                <StaticImage
+                  className="project-thumb"
+                  formats={["auto", "webp", "avif"]}
+                  // src="{post.frontmatter.thumbnail}"
+                  alt="Project picture"
+                />
                 <section>
                   <p
                     dangerouslySetInnerHTML={{
@@ -82,6 +93,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          thumbnail
         }
       }
     }

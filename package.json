@@ -26,6 +26,7 @@
     "gatsby-source-filesystem": "^4.16.0",
     "gatsby-transformer-remark": "^5.16.0",
     "gatsby-transformer-sharp": "^4.16.0",
+    "matter-js": "^0.18.0",
     "node-sass": "^6.0.1",
     "npx": "^10.2.2",
     "prismjs": "^1.28.0",

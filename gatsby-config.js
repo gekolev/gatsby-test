@@ -67,6 +67,7 @@ module.exports = {
               siteMetadata {
                 title
                 description
+                thumbnail
                 siteUrl
                 site_url: siteUrl
               }
@@ -99,6 +100,7 @@ module.exports = {
                     }
                     frontmatter {
                       title
+                      thumbnail
                       date
                     }
                   }
@@ -106,7 +108,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Portfolio",
           },
         ],
       },
