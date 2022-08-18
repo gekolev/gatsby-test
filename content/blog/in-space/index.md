@@ -5,103 +5,26 @@ description: Simple passion project that uses modern technologies immersing the 
 thumbnail: "../images/a.png"
 ---
 
-I have always wanted to explore the galaxy in an engaging way. Books and movies seemed a little too boring for me. I decided to create something that would entertain me and a few of my friends. Hopefully anybody who finds it too. <br> ***[STARGAZING](https://gekolev.github.io/space/)***
+# Experience the project
 
-## Backwards engineering
+>**[>>>STARGAZING LINK](https://gekolev.github.io/space/)**
 
-I limited myself and wanted the project to have a narrow scope. I aimed to create a single page experience, which had some charm. I didn't want people to see it as just a website. My time when creating this project was very limited due to my work duties, therefore some sacrifices in terms of readability and sustainability of code had to be made. <br> **tldr;  I dumped everything into an index.html**
+I have always wanted to explore the galaxy in an engaging way. Books and movies seemed a little too boring for me. I decided to create something that would entertain me and a few of my friends. Hopefully anybody who finds it too.
 
-## Ingredients
+### Backwards engineering
 
-- Subject
-  - 360deg NASA image
-- Framework
-  - Three.js
-- All browsers
-  - Mobile only
+I limited myself and wanted the project to have a narrow scope. I aimed to create a single page experience, which had some charm. I didn't want people to see it as just a website. My time when creating this project was very limited due to my work duties, therefore some sacrifices in terms of readability and sustainability of code had to be made. Spreading the project was also important to me threfore I designed a few posters and put them up around my city alternating them with a QR code that links directly to the site. <br> **tldr;  I dumped everything into an index.html and spread QR codes around.**
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+![Putting up posters](./space.png)
 
-### Overlaid the jeepers uselessly much excluding
+### 1500+ Project views
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
+I used GoatCounter in order to collect some data about the users viewing my project. Most of the visits I got seemed to come from people scanning the QR code, which was really cool and inspiring especially since I only printed 6 code posters. These analytics tools helped me understand who had seen the project and what device they were using. Views seemed to peak on weekends, which was probably due to the QR code scanning 
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
+![Putting up posters](./goatcounterstats.png)
 
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
+### 360 image
 
-### According a funnily until pre-set or arrogant well cheerful
+One of the most crutial resources was the 360 image I chose for the project. It needed to be high resolution, but most importantly it needed to be configured in order to work well with the three.js framework. This was conducted trough a lot of trial and error.
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
-
-1.  So baboon this
-2.  Mounted militant weasel gregariously admonishingly straightly hey
-3.  Dear foresaw hungry and much some overhung
-4.  Rash opossum less because less some amid besides yikes jeepers frenetic
-    impassive fruitlessly shut
-
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
-
-> The copy warned the Little Blind Text, that where it came from it would have
-> been rewritten a thousand times and everything that was left from its origin
-> would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
-
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
-
-#### Silent delightfully including because before one up barring chameleon
-
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
-
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
-
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
-
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
-
-###### Slapped cozy a that lightheartedly and far
-
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+![Putting up posters](./360.png)
